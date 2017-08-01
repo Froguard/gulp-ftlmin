@@ -1,12 +1,16 @@
 {
   "name": "gulp-ftlmin",
   "description": "gulp plugin to minify FTL.(*.ftl -> freemarker template files)",
-  "version": "0.0.1-1",
+  "version": "0.0.1",
   "author": {
-    "name": "Froguard",
-    "url": "https://github.com/Froguard/gulp-ftlmin"
+    "name": "Froguard"
   },
-  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "froguard",
+      "email": "figure_wf@163.com"
+    }
+  ],
   "main": "./index.js",
   "keywords": [
     "format",
@@ -18,12 +22,6 @@
     "minification",
     "minify"
   ],
-  "files": [
-    "index.js"
-  ],
-  "scripts": {
-    "test": ""
-  },
   "dependencies": {
     "bufferstreams": "^1.1.0",
     "gulp-util": "^3.0.7",
@@ -32,6 +30,7 @@
     "readable-stream": "^2.0.2",
     "tryit": "^1.0.1"
   },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Froguard/gulp-ftlmin/issues"
   },

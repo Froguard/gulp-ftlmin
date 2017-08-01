@@ -19,7 +19,7 @@ var gulp = require('gulp');
 var ftlmin = require('gulp-ftlmin');
 
 gulp.task('minify', function() {
-  return gulp.src('src/*.html')
+  return gulp.src('src/*.ftl')
     .pipe(ftlmin({
 		removeFtlComments: true,
 		minifyFtl: true

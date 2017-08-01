@@ -19,7 +19,7 @@ const DEF_OPTIONS = {
     minifyJS: true,
     minifyFtl: true,
     ignoreCustomComments: [
-        /<#--([\s\S])*.*-->/        // freemarker <#-- ×¢ÊÍ -->
+        /<#--([\s\S])*.*-->/        // freemarker <#-- xxx -->
     ],
     ignoreCustomFragments: [
         /<@([\s\S])*.*(\/)?>/,      // freemarker <@abc/>
