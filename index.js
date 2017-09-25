@@ -29,7 +29,7 @@ const DEF_OPTIONS = {
 
 module.exports = function gulpFtlmin(options) {
     options = objectAssign({}, DEF_OPTIONS, options);
-    console.log(options);
+    //console.log(options);
     return new Transform({
         objectMode: true,
         transform: function htmlminTransform(file, enc, cb) {
