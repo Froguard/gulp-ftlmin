@@ -1,7 +1,7 @@
 {
   "name": "gulp-ftlmin",
   "description": "gulp plugin to minify FTL.(*.ftl -> freemarker template files)",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": {
     "name": "Froguard"
   },
