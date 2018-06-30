@@ -91,7 +91,8 @@ function compressFtl(str, options = {}){
         // remove ftl-comments <#-- xxx -->
         str = removeFtlComments ? str.replace(/<#--[\s\S]*?-->/g, EMPTY) : str;
         // convert \s* to \s
-        str = str.replace(/[\s]{2,}/g, SINGLE_SPACE);
+        // str = str.replace(/[\s]{2,}/g, SINGLE_SPACE);
+        str = str.replace(/[\f\t\v]{2,}/g, SINGLE_SPACE);// except \r \n
         str = str.trim();
     }
     return str;
